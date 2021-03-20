@@ -1,47 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 { 
-    text-align: center;
-    margin: 50px auto;
+h1 {
+  text-align: center;
+  margin: 50px auto;
 }
 
 .row {
-    text-align: center;
-    margin: 50px auto;
+  text-align: center;
+  margin: 50px auto;
 }
 
 .col-auto {
-    text-align: center;
-    margin: 50px auto;
+  text-align: center;
+  margin: 50px auto;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.jumbotron {
-
-    font-family: 'Oswald', sans-serif;
-    background-color: lightblue;
-    opacity: 80%;
+  font-family: "Open Sans", sans-serif;
 }
 
 #sad-worker {
-    background-image: url(../images/sad_mood.jpg);
-    opacity: 80%;
+  background-image: url(../images/sad_mood.jpg);
+  opacity: 80%;
 }
 
 #happy-day {
-    background-color: lightblue;
-    opacity: 80%;
+  background-color: lightblue;
+  opacity: 80%;
 }
 
+.jumbotron {
+  height: 500px;
+  overflow: visible;
+  font-family: "Oswald", sans-serif;
+  background-color: lightblue;
+  opacity: 80%;
+}
 
 .container {
-    max-width: 50%;
+  max-width: 50%;
 }
-
