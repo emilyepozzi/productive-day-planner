@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 { 
+    text-align: center;
+    margin: 50px auto;
+}
+
+.row {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.col-auto {
+    text-align: center;
+    margin: 50px auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+
+    font-family: 'Oswald', sans-serif;
+    background-color: lightblue;
+    opacity: 80%;
+}
+
+#sad-worker {
+    background-image: url(../images/sad_mood.jpg);
+    opacity: 80%;
+}
+
+#happy-day {
+    background-color: lightblue;
+    opacity: 80%;
+}
+
+
+.container {
+    max-width: 50%;
+}
+
