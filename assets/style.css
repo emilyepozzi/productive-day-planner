@@ -6,12 +6,12 @@
 
 h1 {
   text-align: center;
-  margin: 50px auto;
+  padding: 50px auto;
 }
 
 .row {
   text-align: center;
-  margin: 50px auto;
+  padding: 50px auto;
 }
 
 .col-auto {
@@ -30,6 +30,7 @@ body {
 
 #happy-day {
   background-color: lightblue;
+  background-image: url(../images/homer1.jpeg);
   opacity: 80%;
 }
 
