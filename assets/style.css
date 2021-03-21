@@ -19,8 +19,33 @@ h1 {
   margin: 50px auto;
 }
 
+.btn1 {
+  background-color: grey;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.btn1:hover {
+background-color: white;
+
+}
+
+.btn2 {
+
+}
+
+.btn2:hover {
+
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+#timeFrame 
+
+.container {
+  max-width: 50%;
 }
 
 #sad-worker {
@@ -40,8 +65,4 @@ body {
   font-family: "Oswald", sans-serif;
   background-color: lightblue;
   opacity: 80%;
-}
-
-.container {
-  max-width: 50%;
 }
