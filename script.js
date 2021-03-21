@@ -23,10 +23,18 @@
 
 // Get the button, and when the user clicks on it, execute myFunction
 var taskBtn = document.querySelector(".btn").addEventListener("click", function() {
-var taskEl = $("#text-area");
-localStorage.setItem("text-area", taskEl.val());
+var taskEl = $('.text-area');
+localStorage.setItem(".text-area", taskEl.val());
 console.log(taskEl.val());
+
+// for each to save individual text area boxes
+var lines = $('textarea').val().split('\n');
+for(var i = 0;i < lines.length;i++){
+    //code here using lines[i] which will give you each line
+}
+
 });
 
-var storedValue = localStorage.getItem("text-area");
+var storedValue = localStorage.getItem(".text-area");
 
+//grab the data in local storage and fill in the textarea values
