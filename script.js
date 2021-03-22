@@ -54,3 +54,14 @@ $("#5am-text").val(localStorage.getItem("5am"));
 $("#6am-text").val(localStorage.getItem("6am"));
 $("#7am-text").val(localStorage.getItem("7am"));
 
+//Starting the different colors for the time variable
+//targeting the task function 
+function colorChange() {
+    for (i = 0; i < timeOfDay_arr.length; i++) {
+      let x = timeOfDay_arr[i].innerText;
+      let y = moment(x, ["h:mm A"]).format("HH:mm")
+
+    }
+  };
+
+  colorChange();
