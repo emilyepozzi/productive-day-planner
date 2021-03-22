@@ -4,14 +4,17 @@
   box-sizing: border-box;
 }
 
-h1 {
+.first {
   text-align: center;
   padding: 50px auto;
 }
 
+h3 {
+  padding: 50px auto 10px auto;
+}
+
 .row {
   text-align: center;
-  padding: 50px auto;
 }
 
 .col-auto {
@@ -19,22 +22,14 @@ h1 {
   margin: 50px auto;
 }
 
-.btn1 {
+.btn {
   background-color: grey;
   color: black;
   border: 2px solid #e7e7e7;
 }
 
-.btn1:hover {
+.btn:hover {
 background-color: white;
-
-}
-
-.btn2 {
-
-}
-
-.btn2:hover {
 
 }
 
@@ -42,7 +37,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#timeFrame 
+.timeDate {
+  text-align: center;
+  font-size: 20px;
+}
 
 .container {
   max-width: 50%;
@@ -60,7 +58,7 @@ body {
 }
 
 .jumbotron {
-  height: 500px;
+  height: 400px;
   overflow: visible;
   font-family: "Oswald", sans-serif;
   background-color: lightblue;

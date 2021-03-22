@@ -20,7 +20,7 @@
     <header class="jumbotron">
 
 
-        <h1>Post Covid Day Planner.</h1>
+        <h1 class="first">Post Covid Day Planner.</h1>
         <div class="row">
         <h3>Mood of the day:</h1>
         <div class="col-auto">
@@ -40,15 +40,17 @@
           </div>
         </div>
 
+        <div class="timeDate">
         <p id="currentDay"></p>
         <p id="currentTime"></p>
+    </div>
 
     </header>
 
     <div id="sad-worker">
     <!--8 to 5pm planner-->
 <div class="container">
-    <div class="row">
+    <div id="row1" class="row">
         <div class="time" id="timeFrame">8:00 AM</div>
         <textarea id="8am-text" class="text-area" col="2"></textarea>
         <button type="button" class="btn" value="8am">Save</button>
@@ -106,7 +108,7 @@
 
     <!--5pm to 5 am fun planner-->
    <div class="container">
-    <div class="row">
+    <div id="row1" class="row">
         <div class="time" id="timeFrame">6:00 PM</div>
         <textarea id="6pm-text" class="text-area" cols="2"></textarea>
         <button type="button" class="btn" value="6pm">Save</button>
