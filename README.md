@@ -25,4 +25,6 @@ THEN the saved events persist
 ![Post Covid Day Planner Screenshot](images/screenshot-planner.png "My Planner Screenshot")
 
 ## Links :
+[Post Covid Day Planner](https://emilyepozzi.github.io/productive-day-planner/ "Post Covid Day Planner")
 
+[GitHub Repo](https://github.com/emilyepozzi/productive-day-planner "My Day Planner GitHub Repo")
